@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    tools:context="com.example.joseph.beenavisionapp.Home">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:weightSum="1">
+
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:textAlignment="center" />
+
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/lightGrey"
+            android:layout_marginTop="10dp"
+            app:tabGravity="fill"
+            app:tabMode="fixed" />
+
+        <android.support.v4.view.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context="net.voidynullness.android.tabitytabs.TabLayoutActivity">
+
+        </android.support.v4.view.ViewPager>
+
+        <!--<Switch
+            android:id="@+id/switch1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Last Processed Trains"
+            android:textSize="20sp" /> -->
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="REFRESH" />
+
+        <TableLayout
+            android:id="@+id/table_main"
+            android:layout_width="391dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/spinner"
+            android:layout_marginTop="7dp"
+            android:layout_weight="0.82"
+            android:orientation="vertical"
+            app:layout_constraintHorizontal_bias="0.493"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView7">
+
+        </TableLayout>
+
+    </LinearLayout>
+
+    <!--
+    <TableLayout
+        android:id="@+id/table_main"
+        android:layout_width="312dp"
+        android:layout_height="450dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:orientation="vertical"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_below="@+id/spinner"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true">
+
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text="Train Passes:"
+                android:textSize="30dp"
+                android:padding="3dip" />
+            <TextView
+                android:id="@+id/text1"
+                android:text=""
+                android:gravity="right"
+                android:textSize="30dp"
+                android:padding="3dip" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text="BrakeView:"
+                android:textSize="30dp"
+                android:background="@color/grey"
+                android:textColor="@color/lightGrey"
+                android:padding="3dip" />
+            <TextView
+                android:id="@+id/text2"
+                android:text=""
+                android:gravity="right"
+                android:background="@color/grey"
+                android:textColor="@color/lightGrey"
+                android:textSize="30dp"
+                android:padding="3dip" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text="CouplerCrossKey:"
+                android:textSize="30dp"
+                android:background="@color/darkGrey"
+                android:textColor="@color/lightGrey"
+                android:padding="3dip" />
+            <TextView
+                android:id="@+id/text3"
+                android:text=""
+                android:gravity="right"
+                android:background="@color/darkGrey"
+                android:textColor="@color/lightGrey"
+                android:textSize="30dp"
+                android:padding="3dip" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text="CouplerPin:"
+                android:textSize="30dp"
+                android:background="@color/grey"
+                android:textColor="@color/lightGrey"
+                android:padding="3dip" />
+            <TextView
+                android:id="@+id/text4"
+                android:text=""
+                android:gravity="right"
+                android:background="@color/grey"
+                android:textColor="@color/lightGrey"
+                android:textSize="30dp"
+                android:padding="3dip" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text="LowAirHose:"
+                android:textSize="30dp"
+                android:background="@color/darkGrey"
+                android:textColor="@color/lightGrey"
+                android:padding="3dip" />
+            <TextView
+                android:id="@+id/text5"
+                android:text=""
+                android:gravity="right"
+                android:background="@color/darkGrey"
+                android:textColor="@color/lightGrey"
+                android:textSize="30dp"
+                android:padding="3dip" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text="TrainView:"
+                android:textSize="30dp"
+                android:background="@color/grey"
+                android:textColor="@color/lightGrey"
+                android:padding="3dip" />
+            <TextView
+                android:id="@+id/text6"
+                android:text=""
+                android:gravity="right"
+                android:background="@color/grey"
+                android:textColor="@color/lightGrey"
+                android:textSize="30dp"
+                android:padding="3dip" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text="TreadView:"
+                android:textSize="30dp"
+                android:background="@color/darkGrey"
+                android:textColor="@color/lightGrey"
+                android:padding="3dip" />
+            <TextView
+                android:id="@+id/text7"
+                android:text=""
+                android:gravity="right"
+                android:background="@color/darkGrey"
+                android:textColor="@color/lightGrey"
+                android:textSize="30dp"
+                android:padding="3dip" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text="TruckView:"
+                android:textSize="30dp"
+                android:background="@color/grey"
+                android:textColor="@color/lightGrey"
+                android:padding="3dip" />
+            <TextView
+                android:id="@+id/text8"
+                android:text=""
+                android:gravity="right"
+                android:background="@color/grey"
+                android:textColor="@color/lightGrey"
+                android:textSize="30dp"
+                android:padding="3dip" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text="WedgeView:"
+                android:textSize="30dp"
+                android:background="@color/darkGrey"
+                android:textColor="@color/lightGrey"
+                android:padding="3dip" />
+            <TextView
+                android:id="@+id/text9"
+                android:text=""
+                android:gravity="right"
+                android:background="@color/darkGrey"
+                android:textColor="@color/lightGrey"
+                android:textSize="30dp"
+                android:padding="3dip" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text="WheelView:"
+                android:textSize="30dp"
+                android:background="@color/grey"
+                android:textColor="@color/lightGrey"
+                android:padding="1dip" />
+            <TextView
+                android:id="@+id/text10"
+                android:text=""
+                android:gravity="right"
+                android:background="@color/grey"
+                android:textColor="@color/lightGrey"
+                android:textSize="30dp"
+                android:padding="0dip" />
+        </TableRow>
+
+
+    </TableLayout>
+
+    </RelativeLayout>-->
+
+</ScrollView>

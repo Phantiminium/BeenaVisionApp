@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:background="#eeeeee"
+        android:weightSum="1">
+
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/comp" />
+
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/orange"
+            android:layout_marginBottom="20dp"
+            android:text="Contact Us"
+            android:textColor="#000000"
+            android:textSize="40sp" />
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/android_card_view_example"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#bbbbbb"
+                android:elevation="4dp"
+                android:padding="16dp"
+                >
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="10dp">
+
+                    <ImageButton
+                        android:id="@+id/imageButton1"
+                        android:layout_width="130dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/location"
+                        android:background="@drawable/style4"
+                        />
+
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView1"
+                    android:layout_marginTop="22dp"
+                    android:text="@string/address"
+                    android:autoLink="map"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="30dp"
+                    android:textColorLink="#3322ff"/>
+                </GridLayout>
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#bbbbbb"
+            android:elevation="4dp"
+            android:padding="16dp">
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="10dp">
+
+                <ImageButton
+                    android:id="@+id/imageButton2"
+                    android:layout_width="130dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/phone"
+                    android:background="@drawable/style4"/>
+
+
+                <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="21dp"
+                android:text="@string/phone"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_below="@+id/textView3"
+                android:autoLink="phone"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="30dp"
+                    android:textColorLink="#3322ff"/>
+
+            </GridLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#bbbbbb"
+            android:elevation="4dp"
+            android:padding="16dp">
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/imageButton3"
+                    android:layout_width="130dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/mail"
+                    android:background="@drawable/style4"/>
+
+
+                <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/email"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_below="@+id/textView5"
+            android:layout_marginTop="21dp"
+            android:autoLink="email"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="20dp"
+                    android:textColorLink="#3322ff"/>
+
+            </GridLayout>
+        </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>

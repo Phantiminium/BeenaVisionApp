@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#dddddd">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:weightSum="1"
+        android:gravity="center_horizontal">
+
+<ImageView
+    android:layout_width="300dp"
+    android:layout_height="100dp"
+    android:src="@drawable/beenavision" />
+
+        <Button
+            android:id="@+id/land1"
+            android:layout_width="190dp"
+            android:layout_height="50dp"
+            android:background="@drawable/rounded2"
+            android:onClick="aboutlink"
+            android:text="About"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/land2"
+            android:layout_width="190dp"
+            android:layout_height="50dp"
+            android:background="@drawable/rounded2"
+            android:onClick="productslink"
+            android:text="Products"
+            android:textSize="20dp"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/land4"
+            android:layout_width="190dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/rounded2"
+            android:onClick="contactlink"
+            android:text="Contact Us"
+            android:textSize="20dp"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/land3"
+            android:layout_width="190dp"
+            android:layout_height="50dp"
+            android:background="@drawable/rounded2"
+            android:onClick="loginlink"
+            android:text="Login"
+            android:textSize="20dp"
+            android:textColor="#ffffff" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp">
+
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

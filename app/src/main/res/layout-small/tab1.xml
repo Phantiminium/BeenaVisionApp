@@ -1,0 +1,126 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:background="#eeeeee"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:src="@drawable/newone"/>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/android_card_view_example"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#bbbbbb"
+                android:elevation="4dp"
+                >
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:elevation="4dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true">
+
+                    <ImageButton
+                        android:id="@+id/imageButton1"
+                        android:layout_width="130dp"
+                        android:layout_height="123dp"
+                        android:src="@drawable/point"
+                        android:background="@drawable/style4"
+                        />
+
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="171dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/fact1"
+                        android:textColor="#000000"
+                        android:textSize="12sp"
+                        android:layout_gravity="center_vertical"/>
+                </GridLayout>
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#bbbbbb"
+            android:elevation="4dp">
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="10dp">
+
+                <ImageButton
+                    android:id="@+id/imageButton2"
+                    android:layout_width="130dp"
+                    android:layout_height="123dp"
+                    android:src="@drawable/point"
+                    android:background="@drawable/style4"
+                    />
+
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/fact2"
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:layout_gravity="center_vertical" />
+
+            </GridLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#bbbbbb"
+            android:elevation="4dp">
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/imageButton3"
+                    android:layout_width="130dp"
+                    android:layout_height="123dp"
+                    android:src="@drawable/point"
+                    android:background="@drawable/style4"
+                    />
+
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/fact3"
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:layout_gravity="center_vertical"/>
+            </GridLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,66 @@
+<resources>
+
+    <string name="headquarters">  The headquarters of Beena Vision in Norcross, GA</string>
+
+    <string name="wheelt">WheelView products are automatic wayside systems that are designed to measure wheel profiles of moving trains. These systems are used to inspect wheels for derailment prevention, preventative maintenance, maintenance scheduling, and to reduce track and rail damage caused by excessively worn wheels.
+
+Standard WheelView (-S) is a rugged system designed to operate in harsh environments as well as shops, depots and yards. The system has an exceptionally robust design that is capable of operation without human intervention for extended periods.
+WheelView-S has been in production since year 2000 and has been successfully deployed in many countries. More recently a few other variations of WheelView are designed for operation under different condition or providing more measurements than our standard systems.</string>
+
+    <string name="pro">Projects</string>
+    <string name="wheel">Wheel View</string>
+    <string name="model">Wheel View model</string>
+    <string name="logo">The logo of Beena Vision</string>
+    <string name="brake">Brake View</string>
+    <string name="braket">BrakeView-Shoe is a wayside brake shoe (Block) measurement system designed to inspect brake shoes at track speeds. This system is vision-based and uses a multi-camera high speed imaging unit to take multiple images of every brake shoe for inspection and measurement.
+BrakeView enclosures are installed on two short towers, one on each side of the track, mounted on two concrete or steel footings. Cameras and illumination systems are installed in a safe distance from the center of the track. Since each brake shoe is viewed by two cameras, a complete and reliable assessment of the brake shoe condition is provided. Brake shoes are viewed from top and bottom perspectives. Acquired images are processed by a set of sophisticated image processing algorithms. </string>
+
+    <string name="tread">Tread View</string>
+    <string name="treadt">TreadView is Beena Vision\'s sophisticated Automatic Non-contact Optical Wheel Surface Inspection System. TreadView is designed to inspect wheel tread surface, flange, and plate areas at normal track speeds.
+This system offers visual inspection of complete wheel tread and flange surface using optical imaging and laser scanning. The objective of the system is to determine any surface abnormalities of the wheel that can be detected using high resolution images of the wheel and high density 3D data of the wheel surface.
+TreadView deploys a unique state of art digital imaging and laser scanning technology for maximum data density, accuracy, and efficiency. The product benefits from sophisticated image processing algorithms to assess wheel tread and flange surface condition from acquired multispectral multi-illumination images.
+</string>
+
+    <string name="partner">Beena Vision major partners:</string>
+
+    <string name="truckview">Truck View</string>
+
+    <string name="truckt">TruckView is a wayside truck (bogie) and friction wedge inspection system designed to operate on passing trains at normal track speeds. TruckView is a vision based system which uses a high speed imaging system to provide high resolution images of every truck for inspection and measurement. Every truck is viewed from up to two angles for a reliable inspection. For North American freight trucks wedge rise measurement is provided. After the truck type is identified, wedge rise is measured in both sides of the bolster and reported. An average wedge rise is also reported. Depending on the truck type, an alarm is generated for excessive wedge rise. The system also inspects the spring condition, including its compression. This is used to compare the spring compression on two sides of the truck and evaluate the load balance of the truck and the car. Other inspected components include bearing caps and bolts, side frame condition and mismatch, bearing adapter plate, brake hose, etc.</string>
+
+    <string name="LAH">LAH View</string>
+
+
+    <string name="laht">LAH View is a wayside brake air hose inspection system designed to operate on passing trains at normal track speeds. Air hose seperation is one of the leading causes of train stoppage in North American freight operations. LAH view is a vision based system, which uses a high speed and high definition imaging system to provide high resolution images of every hose arrangement for inspection and measurement. LAH View provides automated alarms based onthe condition of the air hose arrangement and detects the ones that have the highest probability of seperation.</string>
+    <string name="app_name">Beena Vision</string>
+    <string name="aboutus">"Beena Vision Systems Inc. is the leading manufacturer of vision-based automatic wayside inspection systems for the railroad industry. Over the last fifteen years, Beena Vision has pioneered and developed a number of innovative products using sophisticated machine vision and non-contact measurement technologies. These products are specifically designed to provide valuable information in a variety of areas to effectively assess railcar components and track safety conditions. Although Beena Vision’s product line mainly concentrates on automatic wayside train Inspection systems, It also offers on-board rail and track measurement and inspection systems, as well as a few handheld products for wheel and track measurement.\n\n Our wayside train condition monitoring systems are designed and manufactured for the most demanding applications. We take pride in our high levels of accuracy and system availability. Our systems have a reputation for being tough and durable even in the heavy haul railway environment. This has been the result of years of design, testing, and field experience with more than one hundred installed systems worldwide."</string>
+    >
+
+
+    <string name="address">600 Pinnacle Court, Norcross, GA 30071</string>
+
+    <string name="titleaddress">Address:</string>
+
+    <string name="phone">+1 678 597 3156</string>
+
+    <string name="titlephone">Phone:</string>
+
+    <string name="email">info@beenavision.com</string>
+
+    <string name="titleemail">Email:</string>
+
+    <string name="land">Vision Based Train Inspection Systems</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_main_about">About Us</string>
+
+    <string name="fact1">The first fact</string>
+    <string name="fact2">The second fact</string>
+    <string name="fact3">The third fact</string>
+
+
+    <string name="whoweare">Beena Vision Systems Inc. is the leading manufacturer of vision-based automatic wayside inspection systems for the railroad industry. Over the last fifteen years, Beena Vision has pioneered and developed a number of innovative products using sophisticated machine vision and non-contact measurement technologies. These products are specifically designed to provide valuable information in a variety of areas to effectively assess railcar components and track safety conditions. Although Beena Vision’s product line mainly concentrates on automatic wayside train Inspection systems, It also offers on-board rail and track measurement and inspection systems, as well as a few handheld products for wheel and track measurement. </string>
+    <string name="whatwedo">Our wayside train condition monitoring systems are designed and manufactured for the most demanding applications. We take pride in our high levels of accuracy and system availability. Our systems have a reputation for being tough and durable even in the heavy haul railway environment. This has been the result of years of design, testing, and field experience with more than one hundred installed systems worldwide.
+
+Beena Vision has installed numerous systems at all major American Class 1 railroads including BNSF, UP (Union Pacific), NS (Norfolk Southern) and CSXT. Several of our systems are successfully deployed in Australia, Europe, China, South America, and Middle East.</string>
+
+</resources>
