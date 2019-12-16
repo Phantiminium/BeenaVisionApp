@@ -1,0 +1,171 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\BeenaVisionApp\app\src\main\AndroidManifest.xml:2:1-35:12
+	package
+		ADDED from D:\BeenaVisionApp\app\src\main\AndroidManifest.xml:3:5-48
+		INJECTED from D:\BeenaVisionApp\app\src\main\AndroidManifest.xml
+		INJECTED from D:\BeenaVisionApp\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\BeenaVisionApp\app\src\main\AndroidManifest.xml
+		INJECTED from D:\BeenaVisionApp\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\BeenaVisionApp\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from D:\BeenaVisionApp\app\src\main\AndroidManifest.xml
+		INJECTED from D:\BeenaVisionApp\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\BeenaVisionApp\app\src\main\AndroidManifest.xml:5:5-79
+MERGED from [com.google.android.gms:play-services-maps:10.2.6] C:\Users\Mo\.android\build-cache\c0dd39d39b8ce62970ae012234667c69d6d54ee2\output\AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from D:\BeenaVisionApp\app\src\main\AndroidManifest.xml:5:22-76
+uses-permission#android.permission.INTERNET
+ADDED from D:\BeenaVisionApp\app\src\main\AndroidManifest.xml:6:5-67
+MERGED from [com.google.android.gms:play-services-maps:10.2.6] C:\Users\Mo\.android\build-cache\c0dd39d39b8ce62970ae012234667c69d6d54ee2\output\AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from D:\BeenaVisionApp\app\src\main\AndroidManifest.xml:6:22-64
+application
+ADDED from D:\BeenaVisionApp\app\src\main\AndroidManifest.xml:8:1-33:19
+MERGED from [com.android.support:cardview-v7:21.0.3] C:\Users\Mo\.android\build-cache\9c32901e2e64cb13515e872193da11d9b2fba75c\output\AndroidManifest.xml:16:5-19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Mo\.android\build-cache\e3374f8bf652b767eb9301360950357e40ad010c\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:25.3.1] C:\Users\Mo\.android\build-cache\e5c9a7c6a77e04efd8359bcb3e946c2b40ab148c\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Mo\.android\build-cache\4bba3ef3a7e9e74b290819c7a7be125a41f0e2d9\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Mo\.android\build-cache\f1f31ed852db8ebb0c317d8bc9d4f7ab70180f6c\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Mo\.android\build-cache\323150fc1bbaa768176c358d4b455083d02ac814\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Mo\.android\build-cache\e298fcf7dbc196855b3b06976cafcb816915be36\output\AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-maps:10.2.6] C:\Users\Mo\.android\build-cache\c0dd39d39b8ce62970ae012234667c69d6d54ee2\output\AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-base:10.2.6] C:\Users\Mo\.android\build-cache\05bb0df3e2df149ccea038caf856744b73c14570\output\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:10.2.6] C:\Users\Mo\.android\build-cache\e3f207a6a9fdec55e6a4f4fccb8af6c03e4bd699\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.2.6] C:\Users\Mo\.android\build-cache\bd4044cf9b7b2e626d6c4a2f05924e693753be8f\output\AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Mo\.android\build-cache\37a6c156fd988187e078e4e0911acb7104b7b62f\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Mo\.android\build-cache\12dfe0d92ed0660113c3bb92bc7a2104f121d371\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Mo\.android\build-cache\bb2a64dcc5b5322482c14406d89579af0bc7dd49\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Mo\.android\build-cache\6c3cbaba43617736cf1c2b7838713e022aa702bc\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Mo\.android\build-cache\90b4f6460a2ae4e09ba8f3d5a194c155414f2117\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Mo\.android\build-cache\f68234feaaf0b135152a9468d55ced1bc4565b76\output\AndroidManifest.xml:29:5-20
+	android:screenOrientation
+		ADDED from D:\BeenaVisionApp\app\src\main\AndroidManifest.xml:13:9-45
+	android:label
+		ADDED from D:\BeenaVisionApp\app\src\main\AndroidManifest.xml:11:9-41
+	android:supportsRtl
+		ADDED from D:\BeenaVisionApp\app\src\main\AndroidManifest.xml:14:9-35
+	android:roundIcon
+		ADDED from D:\BeenaVisionApp\app\src\main\AndroidManifest.xml:12:9-48
+	android:allowBackup
+		ADDED from D:\BeenaVisionApp\app\src\main\AndroidManifest.xml:9:9-35
+	android:icon
+		ADDED from D:\BeenaVisionApp\app\src\main\AndroidManifest.xml:10:9-43
+	android:theme
+		ADDED from D:\BeenaVisionApp\app\src\main\AndroidManifest.xml:15:9-40
+activity#com.example.joseph.beenavisionapp.Landing
+ADDED from D:\BeenaVisionApp\app\src\main\AndroidManifest.xml:16:9-24:20
+	android:theme
+		ADDED from D:\BeenaVisionApp\app\src\main\AndroidManifest.xml:18:13-56
+	android:name
+		ADDED from D:\BeenaVisionApp\app\src\main\AndroidManifest.xml:17:13-36
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\BeenaVisionApp\app\src\main\AndroidManifest.xml:19:13-23:29
+action#android.intent.action.MAIN
+ADDED from D:\BeenaVisionApp\app\src\main\AndroidManifest.xml:20:17-69
+	android:name
+		ADDED from D:\BeenaVisionApp\app\src\main\AndroidManifest.xml:20:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\BeenaVisionApp\app\src\main\AndroidManifest.xml:22:17-77
+	android:name
+		ADDED from D:\BeenaVisionApp\app\src\main\AndroidManifest.xml:22:27-74
+activity#com.example.joseph.beenavisionapp.Logo
+ADDED from D:\BeenaVisionApp\app\src\main\AndroidManifest.xml:25:9-42
+	android:name
+		ADDED from D:\BeenaVisionApp\app\src\main\AndroidManifest.xml:25:19-39
+activity#com.example.joseph.beenavisionapp.MainAbout
+ADDED from D:\BeenaVisionApp\app\src\main\AndroidManifest.xml:26:9-46
+	android:name
+		ADDED from D:\BeenaVisionApp\app\src\main\AndroidManifest.xml:26:19-44
+activity#com.example.joseph.beenavisionapp.MainActivity
+ADDED from D:\BeenaVisionApp\app\src\main\AndroidManifest.xml:27:9-50
+	android:name
+		ADDED from D:\BeenaVisionApp\app\src\main\AndroidManifest.xml:27:19-47
+activity#com.example.joseph.beenavisionapp.Page2
+ADDED from D:\BeenaVisionApp\app\src\main\AndroidManifest.xml:28:9-43
+	android:name
+		ADDED from D:\BeenaVisionApp\app\src\main\AndroidManifest.xml:28:19-40
+activity#com.example.joseph.beenavisionapp.Page3
+ADDED from D:\BeenaVisionApp\app\src\main\AndroidManifest.xml:29:9-43
+	android:name
+		ADDED from D:\BeenaVisionApp\app\src\main\AndroidManifest.xml:29:19-40
+activity#com.example.joseph.beenavisionapp.Home
+ADDED from D:\BeenaVisionApp\app\src\main\AndroidManifest.xml:30:9-42
+	android:name
+		ADDED from D:\BeenaVisionApp\app\src\main\AndroidManifest.xml:30:19-39
+activity#com.example.joseph.beenavisionapp.Page2v2
+ADDED from D:\BeenaVisionApp\app\src\main\AndroidManifest.xml:31:9-45
+	android:name
+		ADDED from D:\BeenaVisionApp\app\src\main\AndroidManifest.xml:31:19-42
+activity#com.example.joseph.beenavisionapp.Page3v2
+ADDED from D:\BeenaVisionApp\app\src\main\AndroidManifest.xml:32:9-45
+	android:name
+		ADDED from D:\BeenaVisionApp\app\src\main\AndroidManifest.xml:32:19-42
+uses-sdk
+INJECTED from D:\BeenaVisionApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:cardview-v7:21.0.3] C:\Users\Mo\.android\build-cache\9c32901e2e64cb13515e872193da11d9b2fba75c\output\AndroidManifest.xml:15:5-42
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Mo\.android\build-cache\e3374f8bf652b767eb9301360950357e40ad010c\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:25.3.1] C:\Users\Mo\.android\build-cache\e5c9a7c6a77e04efd8359bcb3e946c2b40ab148c\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Mo\.android\build-cache\4bba3ef3a7e9e74b290819c7a7be125a41f0e2d9\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Mo\.android\build-cache\f1f31ed852db8ebb0c317d8bc9d4f7ab70180f6c\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Mo\.android\build-cache\323150fc1bbaa768176c358d4b455083d02ac814\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Mo\.android\build-cache\59a82b449876a3fa450b7083d423345e4522751e\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Mo\.android\build-cache\e298fcf7dbc196855b3b06976cafcb816915be36\output\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:10.2.6] C:\Users\Mo\.android\build-cache\c0dd39d39b8ce62970ae012234667c69d6d54ee2\output\AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-base:10.2.6] C:\Users\Mo\.android\build-cache\05bb0df3e2df149ccea038caf856744b73c14570\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tasks:10.2.6] C:\Users\Mo\.android\build-cache\e3f207a6a9fdec55e6a4f4fccb8af6c03e4bd699\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:10.2.6] C:\Users\Mo\.android\build-cache\bd4044cf9b7b2e626d6c4a2f05924e693753be8f\output\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Mo\.android\build-cache\37a6c156fd988187e078e4e0911acb7104b7b62f\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Mo\.android\build-cache\12dfe0d92ed0660113c3bb92bc7a2104f121d371\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Mo\.android\build-cache\bb2a64dcc5b5322482c14406d89579af0bc7dd49\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Mo\.android\build-cache\6c3cbaba43617736cf1c2b7838713e022aa702bc\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Mo\.android\build-cache\90b4f6460a2ae4e09ba8f3d5a194c155414f2117\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Mo\.android\build-cache\f68234feaaf0b135152a9468d55ced1bc4565b76\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Mo\.android\build-cache\e5c9a7c6a77e04efd8359bcb3e946c2b40ab148c\output\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from D:\BeenaVisionApp\app\src\main\AndroidManifest.xml
+		INJECTED from D:\BeenaVisionApp\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\BeenaVisionApp\app\src\main\AndroidManifest.xml
+		INJECTED from D:\BeenaVisionApp\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.1] C:\Users\Mo\.android\build-cache\e5c9a7c6a77e04efd8359bcb3e946c2b40ab148c\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Mo\.android\build-cache\4bba3ef3a7e9e74b290819c7a7be125a41f0e2d9\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Mo\.android\build-cache\f1f31ed852db8ebb0c317d8bc9d4f7ab70180f6c\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Mo\.android\build-cache\323150fc1bbaa768176c358d4b455083d02ac814\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Mo\.android\build-cache\59a82b449876a3fa450b7083d423345e4522751e\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Mo\.android\build-cache\e298fcf7dbc196855b3b06976cafcb816915be36\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Mo\.android\build-cache\37a6c156fd988187e078e4e0911acb7104b7b62f\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Mo\.android\build-cache\12dfe0d92ed0660113c3bb92bc7a2104f121d371\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Mo\.android\build-cache\bb2a64dcc5b5322482c14406d89579af0bc7dd49\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Mo\.android\build-cache\6c3cbaba43617736cf1c2b7838713e022aa702bc\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Mo\.android\build-cache\90b4f6460a2ae4e09ba8f3d5a194c155414f2117\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Mo\.android\build-cache\f68234feaaf0b135152a9468d55ced1bc4565b76\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Mo\.android\build-cache\e5c9a7c6a77e04efd8359bcb3e946c2b40ab148c\output\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Mo\.android\build-cache\e5c9a7c6a77e04efd8359bcb3e946c2b40ab148c\output\AndroidManifest.xml:26:9-47
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:10.2.6] C:\Users\Mo\.android\build-cache\c0dd39d39b8ce62970ae012234667c69d6d54ee2\output\AndroidManifest.xml:21:5-77
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:10.2.6] C:\Users\Mo\.android\build-cache\c0dd39d39b8ce62970ae012234667c69d6d54ee2\output\AndroidManifest.xml:21:19-51
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:10.2.6] C:\Users\Mo\.android\build-cache\c0dd39d39b8ce62970ae012234667c69d6d54ee2\output\AndroidManifest.xml:21:52-75
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:10.2.6] C:\Users\Mo\.android\build-cache\05bb0df3e2df149ccea038caf856744b73c14570\output\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:10.2.6] C:\Users\Mo\.android\build-cache\05bb0df3e2df149ccea038caf856744b73c14570\output\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:10.2.6] C:\Users\Mo\.android\build-cache\05bb0df3e2df149ccea038caf856744b73c14570\output\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:10.2.6] C:\Users\Mo\.android\build-cache\05bb0df3e2df149ccea038caf856744b73c14570\output\AndroidManifest.xml:19:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:10.2.6] C:\Users\Mo\.android\build-cache\bd4044cf9b7b2e626d6c4a2f05924e693753be8f\output\AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:10.2.6] C:\Users\Mo\.android\build-cache\bd4044cf9b7b2e626d6c4a2f05924e693753be8f\output\AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:10.2.6] C:\Users\Mo\.android\build-cache\bd4044cf9b7b2e626d6c4a2f05924e693753be8f\output\AndroidManifest.xml:20:20-65
